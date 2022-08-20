@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		08DD556D28AF376D007BF15E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD556C28AF376D007BF15E /* main.swift */; };
+		08DD557728AF3B14007BF15E /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD557628AF3B14007BF15E /* Question1.swift */; };
+		08DD557928AF3B1D007BF15E /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD557828AF3B1D007BF15E /* Question2.swift */; };
+		08DD557B28AF3B25007BF15E /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD557A28AF3B25007BF15E /* Question3.swift */; };
+		08DD557D28AF3B2F007BF15E /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD557C28AF3B2F007BF15E /* Question4.swift */; };
+		08DD557F28AF3B3D007BF15E /* Question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD557E28AF3B3D007BF15E /* Question5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,12 @@
 
 /* Begin PBXFileReference section */
 		08DD556928AF376D007BF15E /* WMAD-SWIFT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "WMAD-SWIFT"; sourceTree = BUILT_PRODUCTS_DIR; };
-		08DD556C28AF376D007BF15E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		08DD556C28AF376D007BF15E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../main.swift; sourceTree = "<group>"; };
+		08DD557628AF3B14007BF15E /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
+		08DD557828AF3B1D007BF15E /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
+		08DD557A28AF3B25007BF15E /* Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question3.swift; sourceTree = "<group>"; };
+		08DD557C28AF3B2F007BF15E /* Question4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question4.swift; sourceTree = "<group>"; };
+		08DD557E28AF3B3D007BF15E /* Question5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,30 @@
 		08DD556B28AF376D007BF15E /* WMAD-SWIFT */ = {
 			isa = PBXGroup;
 			children = (
-				08DD556C28AF376D007BF15E /* main.swift */,
+				08DD558028AF3D30007BF15E /* Assignment2 */,
+				08DD557328AF3AE4007BF15E /* Assignment1 */,
 			);
 			path = "WMAD-SWIFT";
+			sourceTree = "<group>";
+		};
+		08DD557328AF3AE4007BF15E /* Assignment1 */ = {
+			isa = PBXGroup;
+			children = (
+				08DD556C28AF376D007BF15E /* main.swift */,
+				08DD557628AF3B14007BF15E /* Question1.swift */,
+				08DD557828AF3B1D007BF15E /* Question2.swift */,
+				08DD557A28AF3B25007BF15E /* Question3.swift */,
+				08DD557C28AF3B2F007BF15E /* Question4.swift */,
+				08DD557E28AF3B3D007BF15E /* Question5.swift */,
+			);
+			path = Assignment1;
+			sourceTree = "<group>";
+		};
+		08DD558028AF3D30007BF15E /* Assignment2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assignment2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DD557928AF3B1D007BF15E /* Question2.swift in Sources */,
+				08DD557B28AF3B25007BF15E /* Question3.swift in Sources */,
+				08DD557D28AF3B2F007BF15E /* Question4.swift in Sources */,
 				08DD556D28AF376D007BF15E /* main.swift in Sources */,
+				08DD557728AF3B14007BF15E /* Question1.swift in Sources */,
+				08DD557F28AF3B3D007BF15E /* Question5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

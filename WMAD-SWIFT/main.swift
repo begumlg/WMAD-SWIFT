@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 let question1 = Question1()
 question1.solution1()
 
